@@ -57,8 +57,11 @@ startGame = () => {
 };
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter >= NumberQuestion) {
+        //save score to local storage
+        localStorage.setItem("mostRecentScore", score);
+
         // got to the end of page
-        return window.location.assign ("/end.html");
+        return window.location.assign ("/score.html");
     }
     questionCounter++;
     questionCounterText.innerText = questionCounter + "/" + NumberQuestion;

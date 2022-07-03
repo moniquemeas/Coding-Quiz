@@ -14,8 +14,22 @@ header {
 }
 .container{
 display: flex;
-justify-content: space-between;
+justify-content: center;
 text-align: center;
+
+
+}
+#end {
+    background-color: beige;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.scoreForm{
+    padding-left: 150px;
 }
 button{
     font-size: 20px;
@@ -35,4 +49,12 @@ button{
 }
 .incorrect button{
     background-color: red;
+}
+.btn{
+    width: 200px;
+    font-size: 15px;
+}
+form{
+    width: 200px;
+    font-size: 20px;
 }
