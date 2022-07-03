@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+}
+.test header   {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 50px;
+}
+.test{
+    
+    margin: 0 200px 0 200px;
+    background-color: beige;
+}
+.container{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+button{
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.choice-container{
+    margin: 0 300px 0 400px;
+    font-size: 20px;
+    border: 3px solid beige;
+}
+
+.correct button{
+    background-color: green;
+}
+.incorrect button{
+    background-color: red;
+}
