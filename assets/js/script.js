@@ -61,7 +61,7 @@ getNewQuestion = () => {
         localStorage.setItem("mostRecentScore", score);
 
         // got to the end of page
-        return window.location.assign ("/end.html");
+        return window.location.assign ("./assets/end.html");
     }
     questionCounter++;
     questionCounterText.innerText = questionCounter + "/" + NumberQuestion;
